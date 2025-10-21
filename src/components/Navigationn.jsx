@@ -19,9 +19,9 @@ function Navigationn() {
 </div>
 
 
-    <nav className=" shadow-sm  bg-blue-600 w-32 sm:w-screen rounded-lg relative">
+    <nav className="  bg-blue-500  w-32 sm:w-screen rounded-lg relative">
 
-  <div className={`${open ? "flex" : "hidden"} sm:flex flex-col sm:flex-row justify-center font-serif font-bold text-white text-xl  absolute sm:static items-start  shadow-lg  bg-blue-600`}>
+  <div className={`${open ? "flex" : "hidden"} sm:flex flex-col sm:flex-row justify-center font-serif font-bold  text-xl  absolute sm:static items-start text-white  `}>
     <Link to="/" className="p-2" onClick={handleopens}>Home</Link>
     <Link to="/about" className="p-2" onClick={handleopens}>About</Link>
 
