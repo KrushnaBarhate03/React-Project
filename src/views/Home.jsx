@@ -18,10 +18,13 @@ function Home() {
       <h4 className='font-bold font-serif text-center w-120 mx-auto mt-2 bg-amber-500'>Flymore Is The Best Place For Your Drone Care</h4>
       </div>
       
-       <div className='flex flex-row relative'>
+       <div className='flex sm:flex-row flex-col relative'>
+          <img src={Dchart1} alt="Drone image" className="w-80 h-80 mx-2  left-14 top-2 "/>
 
-         <h3 className='absolute left-100 bg-amber-100 p-4 rounded-lg font-serif font-semibold'>Flymore Drone, headquartered in Pune, specializes in innovative UAV solutions for IT, defense, aerospace, GIS, and technical publications. Committed to efficiency, seamless integration, and advanced technology, we deliver high-performance, user-centric solutions across industries.</h3> 
-         <img src={Dchart1} alt="Drone image" className="w-80 h-80 mx-2 absolute left-14 top-2 "/>
+         <h3 className=' left-100 bg-amber-100 p-4 rounded-lg font-serif font-semibold top-100'>
+         
+          Flymore Drone, headquartered in Pune, specializes in innovative UAV solutions for IT, defense, aerospace, GIS, and technical publications. Committed to efficiency, seamless integration, and advanced technology, we deliver high-performance, user-centric solutions across industries.</h3> 
+        
         
        </div>
       
