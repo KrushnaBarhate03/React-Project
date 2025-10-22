@@ -43,13 +43,13 @@ function Home() {
   <Counter images={Client } names="Satisfied Client" end={95} duration={2} suffix="k" />
  
 </div>
-<h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> Industry Specific optimization </h3>
+<h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Industry Specific optimization </h3>
 <div className="flex flex-row sm:mt-10  flex-wrap">
-        <Industry image={ Innovation } name="Agriculture Drone"/>
-         <Industry image={ Growth} name="Defense Drone"/>
-          <Industry image={ Sustainablegrowth} name="Defense Drone"/>
+        <Industry image={ Innovation } name="Innovation & Intergartion" information="Developing cutting-edge UAV solutions that enhance efficiency, usability, and seamless integration across industries." number="1"/>
+         <Industry image={ Growth} name="Operational Excellence" information="Enhancing automation, security, and reliability to streamline operations and reduce user effort." number="2"/>
+          <Industry image={ Sustainablegrowth} name="Sustainable Growth & Scalablity" information="Ensuring future-ready, eco-conscious solutions that drive long-term success in evolving technological landscapes." number="3"/>
 
-        <Industry image={ Research } name="Survelliance Drone"/> 
+        <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability." number="4"/> 
        </div>
       
    
