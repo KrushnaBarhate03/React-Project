@@ -3,6 +3,12 @@ import Dchart from '../assets/chart3.jpg'
 import Dchart1 from '../assets/chart4.jpg'
 import Agriculture from '../assets/agriculture.jpg'
 import Cards from '../components/Cards.jsx'
+import Counter from'../components/Counter.jsx'
+import Project from '../assets/project.png'
+import Experience from '../assets/experience.png'
+import Award from '../assets/award.png'
+import Client from '../assets/client.png'
+
 function Home() {
   return(
     <>
@@ -22,7 +28,16 @@ function Home() {
          <Cards image={ Agriculture } name="Defense Drone"/>
         <Cards image={ Agriculture } name="Survelliance Drone"/> 
        </div>
-
+       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-6 bg-amber-500"> Our Achievements</h3> 
+<div className="text-center flex sm:flex-row flex-col sm:justify-center sm:items-center flex-wrap">
+  
+   <Counter images={Experience } names="Experience" end={6} duration={2} suffix="+"/>
+   <Counter images={Award } names="Award Received" end={3} duration={2} suffix="+"/>
+  <Counter images={Project} names="Project Completed" end={100} duration={2} suffix="+"/>
+   
+    <Counter images={Client } names="Satisfied Client" end={95} duration={2} suffix="k"/>
+ 
+</div>
       
    
     </>
