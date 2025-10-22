@@ -8,6 +8,12 @@ import Project from '../assets/project.png'
 import Experience from '../assets/experience.png'
 import Award from '../assets/award.png'
 import Client from '../assets/client.png'
+import Industry from'../components/Industry.jsx'
+
+import Innovation from '../assets/innovation.png'
+import Growth from '../assets/growth.png'
+import Research from '../assets/research.png'
+import Sustainablegrowth from '../assets/sustainablegrowth.png'
 
 function Home() {
   return(
@@ -21,23 +27,30 @@ function Home() {
     <img src={Dchart} alt="drone chart" className=" mt-4 w-100   rounded-lg "/>
     </div>
     <div className="">
-      <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-6 bg-amber-500"> Our Drones</h3> 
+      <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Drones</h3> 
        </div>
        <div className="flex flex-row sm:mt-10  flex-wrap">
         <Cards image={ Agriculture } name="Agriculture Drone"/>
          <Cards image={ Agriculture } name="Defense Drone"/>
         <Cards image={ Agriculture } name="Survelliance Drone"/> 
        </div>
-       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-6 bg-amber-500"> Our Achievements</h3> 
-<div className="text-center flex sm:flex-row flex-col sm:justify-center sm:items-center flex-wrap">
+       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> Our Achievements</h3> 
+<div className="text-center flex sm:flex-row flex-col sm:justify-center sm:items-center  flex-wrap">
   
    <Counter images={Experience } names="Experience" end={6} duration={2} suffix="+"/>
    <Counter images={Award } names="Award Received" end={3} duration={2} suffix="+"/>
   <Counter images={Project} names="Project Completed" end={100} duration={2} suffix="+"/>
-   
-    <Counter images={Client } names="Satisfied Client" end={95} duration={2} suffix="k"/>
+  <Counter images={Client } names="Satisfied Client" end={95} duration={2} suffix="k" />
  
 </div>
+<h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> Industry Specific optimization </h3>
+<div className="flex flex-row sm:mt-10  flex-wrap">
+        <Industry image={ Innovation } name="Agriculture Drone"/>
+         <Industry image={ Growth} name="Defense Drone"/>
+          <Industry image={ Sustainablegrowth} name="Defense Drone"/>
+
+        <Industry image={ Research } name="Survelliance Drone"/> 
+       </div>
       
    
     </>
