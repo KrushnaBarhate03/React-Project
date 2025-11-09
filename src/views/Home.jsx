@@ -59,7 +59,7 @@ function Home() {
       <div> 
          <h2 className="font-serif text-2xl   text-center sm:text-start font-bold text-blue-500 hidden sm:block sm:mx-10" >About Us</h2>
         
-        <p className="font-serif text-center sm:text-start text-xl p-6 mt-5 sm:mt-0">Avishkar Pvt Ltd is a leading software development company based in Pune. We specialize in creating innovative and custom Drones solutions that drive business growth. Our team of experts is dedicated to delivering excellence and exceeding client expectations.
+        <p className="font-serif text-center whitespace-pre-wrap sm:text-start text-xl p-6 mt-5 sm:mt-0">Avishkar Pvt Ltd is a leading software development company based in Pune. We specialize in creating innovative and custom Drones solutions that drive business growth. Our team of experts is dedicated to delivering excellence and exceeding client expectations.
 
         With a focus on cutting-edge technologies and a commitment to quality, we help businesses navigate the complexities of the digital world.Learn More
         </p>
