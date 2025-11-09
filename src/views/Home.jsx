@@ -9,7 +9,6 @@ import Experience from '../assets/experience.png'
 import Award from '../assets/award.png'
 import Client from '../assets/client.png'
 import Industry from'../components/Industry.jsx'
-
 import Innovation from '../assets/innovation.png'
 import Growth from '../assets/growth.png'
 import Research from '../assets/research.png'
