@@ -13,7 +13,7 @@ import Innovation from '../assets/innovation.png'
 import Growth from '../assets/growth.png'
 import Research from '../assets/research.png'
 import Sustainablegrowth from '../assets/sustainablegrowth.png'
-import About from '../assets/About.jpg'
+import About from '../assets/Dronei.jpg'
 function Home() {
   return(
     <>
@@ -55,16 +55,16 @@ function Home() {
        </div>
       
        <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> About</h3> 
-     <div className="flex justify-center h-[300px] w-full bg-gray-200 relative mt-10 rounded-lg ">  
+     <div className="flex justify-center  flex-col sm:flex-row items-center h-[750px] sm:h-[400px] bg-gray-200 relative rounded-lg sm:mt-12 ">  
       <div> 
-         <h2 className="font-serif text-md p-2">About Us</h2>
+         <h2 className="font-serif text-2xl   text-center sm:text-start font-bold text-blue-500 hidden sm:block sm:mx-10" >About Us</h2>
         
-        <p className="font-serif text-md p-2">Avishkar Pvt Ltd is a leading software development company based in Pune. We specialize in creating innovative and custom Drones solutions that drive business growth. Our team of experts is dedicated to delivering excellence and exceeding client expectations.
+        <p className="font-serif text-center sm:text-start text-xl p-6 mt-5 sm:mt-0">Avishkar Pvt Ltd is a leading software development company based in Pune. We specialize in creating innovative and custom Drones solutions that drive business growth. Our team of experts is dedicated to delivering excellence and exceeding client expectations.
 
         With a focus on cutting-edge technologies and a commitment to quality, we help businesses navigate the complexities of the digital world.Learn More
         </p>
         </div>
-       <img src={About} alt="About image" className='w-100 h-60 absolute right-10 m-6 rounded-lg'/>
+       <img src={About} alt="About image" className='w-[500px] h-80 sm:m-10  sm:shadow-lg sm:shadow-blue-500/50 rounded-lg  p-6 sm:p-0'/>
         
         
          
