@@ -13,7 +13,7 @@ import Innovation from '../assets/innovation.png'
 import Growth from '../assets/growth.png'
 import Research from '../assets/research.png'
 import Sustainablegrowth from '../assets/sustainablegrowth.png'
-
+import About from '../assets/About.jpg'
 function Home() {
   return(
     <>
@@ -43,14 +43,33 @@ function Home() {
  
 </div>
 <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Industry Specific optimization </h3>
-<div className="flex flex-row sm:mt-10  flex-wrap">
-        <Industry image={ Innovation } name="Innovation & Intergartion" information="Developing cutting-edge UAV solutions that enhance efficiency, usability, and seamless integration across industries." number="1"/>
-         <Industry image={ Growth} name="Operational Excellence" information="Enhancing automation, security, and reliability to streamline operations and reduce user effort." number="2"/>
-          <Industry image={ Sustainablegrowth} name="Sustainable Growth & Scalablity" information="Ensuring future-ready, eco-conscious solutions that drive long-term success in evolving technological landscapes." number="3"/>
 
-        <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability." number="4"/> 
+<div className="flex flex-row sm:mt-10  flex-wrap">
+        <Industry image={ Innovation } name="Innovation & Intergartion" information="Developing cutting-edge UAV solutions that enhance efficiency, usability, and seamless integration across industries." />
+
+         <Industry image={ Growth} name="Operational Excellence" information="Enhancing automation, security, and reliability to streamline operations and reduce user effort." />
+
+          <Industry image={ Sustainablegrowth} name="Sustainable Growth & Scalablity" information="Ensuring future-ready, eco-conscious solutions that drive long-term success in evolving technological landscapes."/>
+
+        <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability."/> 
        </div>
       
+       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> About</h3> 
+     <div className="flex justify-center h-[300px] w-full bg-gray-200 relative mt-10 rounded-lg ">  
+      <div> 
+         <h2 className="font-serif text-md p-2">About Us</h2>
+        
+        <p className="font-serif text-md p-2">Avishkar Pvt Ltd is a leading software development company based in Pune. We specialize in creating innovative and custom Drones solutions that drive business growth. Our team of experts is dedicated to delivering excellence and exceeding client expectations.
+
+        With a focus on cutting-edge technologies and a commitment to quality, we help businesses navigate the complexities of the digital world.Learn More
+        </p>
+        </div>
+       <img src={About} alt="About image" className='w-100 h-60 absolute right-10 m-6 rounded-lg'/>
+        
+        
+         
+
+       </div> 
    
     </>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Industry({image,name,information,number}) {
+function Industry({image,name,information}) {
   return (
     
     
