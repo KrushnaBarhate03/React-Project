@@ -14,6 +14,9 @@ import Growth from '../assets/growth.png'
 import Research from '../assets/research.png'
 import Sustainablegrowth from '../assets/sustainablegrowth.png'
 import About from '../assets/Dronei.jpg'
+import Plus from'../assets/plus.png'
+import Dot from '../assets/dot.png'
+import Ourservices from '../components/Ourservices.jsx'
 function Home() {
   return(
     <>
@@ -65,11 +68,36 @@ function Home() {
         </p>
         </div>
        <img src={About} alt="About image" className='w-[500px] h-80 sm:m-10  sm:shadow-lg sm:shadow-blue-500/50 rounded-lg  p-6 sm:p-0'/>
-        
-        
-         
-
        </div> 
+       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Services </h3>
+       
+       {/* <div className="w-[350px]  h-auto shadow-lg shadow-blue-500/50 border border-blue-500 rounded-lg">
+        <div className=" flex   ">
+        <img src={Plus} alt="pluse icon" className="w-10 h-10 bg-blue-500 rounded-full mx-4 mt-5"/>
+        <h3 className="font-bold font-serif text-xl m-2">Custom Drone Development</h3>
+         </div>
+        <div>
+        <h3 className=" font-serif mx-18">Designing and building custom drones as per client requirements</h3>
+        </div>
+       
+        <div className="flex ">
+        <img src={Dot} alt="Dot icon" className='w-15 h-15'/>
+        <h3 className='mt-4 font-serif'>Custome Drone Desing</h3>
+        </div>
+
+         <div className="flex ">
+        <img src={Dot} alt="Dot icon" className='w-15 h-15'/>
+        <h3 className='mt-4 font-serif'>Custome Drone Desing</h3>
+        </div> */}
+<div className="flex flex-wrap flex-row mt-10 justify-center">
+       <Ourservices />
+       
+       </div>
+       
+      
+        {/* </div> */}
+
+       
    
     </>
   )
