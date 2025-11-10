@@ -1,6 +1,6 @@
 import React from 'react'
 import Plus from '../assets/plus.png'
-import Dot from '../assets/Dot.png'
+import Dot from '../assets/dot.png'
 
 function Ourservices() {
 
