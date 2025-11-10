@@ -45,17 +45,7 @@ function Home() {
   <Counter images={Client } names="Satisfied Client" end={95} duration={2} suffix="k" />
  
 </div>
-<h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Industry Specific optimization </h3>
 
-<div className="flex flex-row sm:mt-10  flex-wrap">
-        <Industry image={ Innovation } name="Innovation & Intergartion" information="Developing cutting-edge UAV solutions that enhance efficiency, usability, and seamless integration across industries." />
-
-         <Industry image={ Growth} name="Operational Excellence" information="Enhancing automation, security, and reliability to streamline operations and reduce user effort." />
-
-          <Industry image={ Sustainablegrowth} name="Sustainable Growth & Scalablity" information="Ensuring future-ready, eco-conscious solutions that drive long-term success in evolving technological landscapes."/>
-
-        <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability."/> 
-       </div>
       
        <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> About</h3> 
      <div className="flex justify-center  flex-col sm:flex-row items-center h-[750px] sm:h-[400px] bg-gray-200 relative rounded-lg sm:mt-12 ">  
@@ -71,31 +61,25 @@ function Home() {
        </div> 
        <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Services </h3>
        
-       {/* <div className="w-[350px]  h-auto shadow-lg shadow-blue-500/50 border border-blue-500 rounded-lg">
-        <div className=" flex   ">
-        <img src={Plus} alt="pluse icon" className="w-10 h-10 bg-blue-500 rounded-full mx-4 mt-5"/>
-        <h3 className="font-bold font-serif text-xl m-2">Custom Drone Development</h3>
-         </div>
-        <div>
-        <h3 className=" font-serif mx-18">Designing and building custom drones as per client requirements</h3>
-        </div>
        
-        <div className="flex ">
-        <img src={Dot} alt="Dot icon" className='w-15 h-15'/>
-        <h3 className='mt-4 font-serif'>Custome Drone Desing</h3>
-        </div>
-
-         <div className="flex ">
-        <img src={Dot} alt="Dot icon" className='w-15 h-15'/>
-        <h3 className='mt-4 font-serif'>Custome Drone Desing</h3>
-        </div> */}
 <div className="flex flex-wrap flex-row mt-10 justify-center">
        <Ourservices />
        
        </div>
+       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Why Choose Us </h3>
+
+<div className="flex flex-row sm:mt-10  flex-wrap">
+        <Industry image={ Innovation } name="Innovation & Intergartion" information="Developing cutting-edge UAV solutions that enhance efficiency, usability, and seamless integration across industries." />
+
+         <Industry image={ Growth} name="Operational Excellence" information="Enhancing automation, security, and reliability to streamline operations and reduce user effort." />
+
+          <Industry image={ Sustainablegrowth} name="Sustainable Growth & Scalablity" information="Ensuring future-ready, eco-conscious solutions that drive long-term success in evolving technological landscapes."/>
+
+        <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability."/> 
+       </div>
        
       
-        {/* </div> */}
+      
 
        
    
