@@ -17,6 +17,8 @@ import About from '../assets/Dronei.jpg'
 import Plus from'../assets/plus.png'
 import Dot from '../assets/dot.png'
 import Ourservices from '../components/Ourservices.jsx'
+import User from '../assets/user.png'
+import Choosecard from '../components/Choosecard.jsx'
 function Home() {
   return(
     <>
@@ -77,8 +79,10 @@ function Home() {
 
         <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability."/> 
        </div>
-       
-      
+       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500 "> What Our Clients Say </h3>
+       <div className="flex mt-12 ">
+        <Choosecard/>
+       </div>
       
 
        
