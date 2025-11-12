@@ -36,9 +36,9 @@ function Choosecard() {
     <>
     {Choose.map((cards,index)=>{
     return <div className=""> 
-        <div className="w-[300px] border border-blue-500 shadow-lg shadow-blue-500/50 rounded-lg bg-gray-200 m-4">
+        <div className="w-[300px] border border-blue-500 shadow-lg shadow-blue-500/50 rounded-lg bg-blue-50 m-4">
         <h3 className="font-serif text-md p-6">{cards.text} </h3>
-        <h3 className="border border-t border-gray-500"></h3>
+        <h3 className="border border-t border-blue-500"></h3>
         <div className='flex  justif-start'>
                   
                   <img src={cards.image} alt="user icon image"className='w-15 h-15 m-2'/>
