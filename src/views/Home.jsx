@@ -30,7 +30,7 @@ function Home() {
     </div>
     <div className="flex flex-col justify-center items-center mt-5">
     <button type="button" className=" p-2 bg-amber-500 font-serif font-bold rounded-lg w-40 ">Book Now</button>
-    <img src={Dchart} alt="drone chart" className=" mt-4 w-100  m-2 sm:m-0 rounded-lg "/>
+    <img src={Dchart} alt="drone chart" className=" mt-4 w-72   rounded-lg "/>
     </div>
     <div className="">
       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Drones</h3> 
