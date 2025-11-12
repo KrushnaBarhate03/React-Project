@@ -85,7 +85,7 @@ function Home() {
         <Choosecard/>
        </div>
       <div className="bg-gray-200 mt-15 rounded-lg flex flex-col sm:flex-row">
-        <div className="w-1/5">
+        <div className=" sm:w-1/5 w-auto">
           <img src={Logo} alt="Logo image" className='w-72 '/>
           <p className='relative  top-[-55px] pl-6'>Avishkar means Innovation and We Innovate the New Technologies in Drones </p>
 
