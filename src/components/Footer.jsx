@@ -3,12 +3,13 @@ import Logo from '../assets/logo.png'
 import {Link} from 'react-router-dom'
 function Footer() {
   return (
-    <div className="bg-blue-50 shadow-lg shadow-blue-500/50 mt-15 rounded-lg flex flex-col sm:flex-row">
-        <div className=" sm:w-1/5 w-auto flex flex-col ">
-          <img src={Logo} alt="Logo image" className='w-72 mx-auto '/>
-          <p className='relative  top-[-55px] font-bold text-md text-center font-serif text-md pl-6'>Avishkar means Innovation and We Innovate the New Technologies in Drones </p>
+    <div className="bg-blue-50 shadow-lg shadow-blue-500/50  mt-12 rounded-lg flex flex-col sm:flex-row">
+        <div className=" sm:w-1/5 w-auto mt-10 ">
+          <img src={Logo} alt="Logo image" className='w-45 mx-auto '/>
+          <p className='font-bold text-md text-center font-serif text-md pl-6 mt-2'>Avishkar means Innovation and We Innovate the New Technologies in Drones </p>
+         </div>
 
-        </div>
+        
         <div className=" m-6 sm:m-12 font-serif flex flex-col">
           <h3 className='  font-serif font-bold'>Useful Links</h3>
           <Link to="/">Home</Link>
@@ -31,12 +32,14 @@ function Footer() {
          <Link to="/Graphics">Graphics and Video Editing</Link> 
         </div>
         
-        <div className='sm:m-12 m-6 font-serif'>
+        <div className='sm:m-12 m-6  flex flex-col'>
           <h3 className="font-serif font-bold">Contact Us </h3>
+          <div className="font-serif">
           <p>Pune Maharashtra,India</p>
-          <p>AvishkarDrones@gmail.com</p>
-          <p>1234556789</p>
-          <p></p>
+          <a href="mailto:AvishkarDrone@gmail.com" >AvishkarDrone@gmail.com</a>
+          </div>
+         <a href="tel:+911234567890" >+91 1234567899</a>
+         
         </div>
         
 
