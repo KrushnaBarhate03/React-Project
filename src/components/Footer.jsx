@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Footer() {
   return (
     <div className="bg-blue-50 shadow-lg shadow-blue-500/50 mt-15 rounded-lg flex flex-col sm:flex-row">
-        <div className=" sm:w-1/5 w-auto ">
+        <div className=" sm:w-1/5 w-auto flex flex-col ">
           <img src={Logo} alt="Logo image" className='w-72 mx-auto '/>
           <p className='relative  top-[-55px] font-bold text-md text-center font-serif text-md pl-6'>Avishkar means Innovation and We Innovate the New Technologies in Drones </p>
 
