@@ -61,7 +61,7 @@ function Home() {
         With a focus on cutting-edge technologies and a commitment to quality, we help businesses navigate the complexities of the digital world.Learn More
         </p>
         </div>
-       <img src={About} alt="About image" className='w-96 h-80 sm:m-10  sm:shadow-lg sm:shadow-blue-500/50 rounded-lg   sm:p-0'/>
+       <img src={About} alt="About image" className='w-96 h-80 sm:m-10  sm:shadow-lg sm:shadow-blue-500/50 rounded-lg  p-4 sm:p-0'/>
        </div> 
        <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Services </h3>
        
