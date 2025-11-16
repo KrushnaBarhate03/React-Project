@@ -86,9 +86,7 @@ function Home() {
         <Choosecard/>
        </div>
       
-<div>
-  <Footer/>
-</div>
+
        
    
     </>

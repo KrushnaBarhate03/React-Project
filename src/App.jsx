@@ -20,7 +20,9 @@ import Dronesoftware from'./views/Dronesoftware.jsx'
 import Aerialphotography from './views/Aerialphotography.jsx'
 import Dronetraning from './views/Dronetraning.jsx'
 import Dronelience from './views/Dronelience.jsx'
+import Footer from './components/Footer.jsx'
 import{BrowserRouter,Route,Routes} from 'react-router-dom'
+
 
 
 function App() {
@@ -49,6 +51,7 @@ function App() {
 
 
   </Routes>
+  <Footer/>
   
   </BrowserRouter>
   )
