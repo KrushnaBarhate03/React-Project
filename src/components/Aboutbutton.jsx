@@ -6,8 +6,13 @@ import Target from '../assets/target.png'
 import Skill from '../assets/skill.png'
 function Aboutbutton({Description,image }) {
     const [Design, setDesign] = useState(false);
-    const design = () => {
+    const design = (open) => {
+        if(!open){
         setDesign(true);
+        }
+        else{
+            setDesign(false)
+        }
     }
 
     const feature=[{
@@ -36,7 +41,7 @@ function Aboutbutton({Description,image }) {
             feature.map((element,index)=>{
             return(
                
-                <div className='bg-blue-50 border border-blue-500 w-64 h-48 rounded-sm m-5 mx-auto  '>
+                <div className='bg-blue-50 border border-blue-500  w-80 sm:w-64 h-48 rounded-sm m-5 mx-auto  '>
               <div key={index}>
                 <div className="bg-orange-500 mt-12">
                 <img src={element.image} alt="Images" className='w-15 h-15 mx-auto p-2'/> 
@@ -51,7 +56,7 @@ function Aboutbutton({Description,image }) {
            })
             )}
  </div>
-            <button type="button" className="text-white w-48  h-18 bg-blue-500 font-serif text-xl font-semibold rounded-sm block mx-auto mt-5" onClick={design} >Our Speciality</button>
+            <button type="button" className="text-white w-48  h-18 bg-blue-500 font-serif text-xl font-semibold rounded-sm block mx-auto mt-5" onClick={()=>design(Design)} >Our Speciality</button>
        </div>
     )
 }
