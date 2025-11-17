@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Durable from '../assets/Durable.png'
 import Battery from '../assets/battery.png'
 import Target from '../assets/target.png'
-import Customer from '../assets/customerservice.png'
+import Skill from '../assets/skill.png'
 function Aboutbutton({Description,image }) {
     const [Design, setDesign] = useState(false);
     const design = () => {
@@ -22,7 +22,7 @@ function Aboutbutton({Description,image }) {
      title:"Precision Performance"
     },
     {
-        image:Customer,
+        image:Skill,
         title:" Fast Customer Service"
     }
     
@@ -36,7 +36,7 @@ function Aboutbutton({Description,image }) {
             feature.map((element,index)=>{
             return(
                
-                <div className='bg-blue-50 border border-blue-500 w-80 h-48 rounded-sm m-5  '>
+                <div className='bg-blue-50 border border-blue-500 w-64 h-48 rounded-sm m-5 mx-auto  '>
               <div key={index}>
                 <div className="bg-orange-500 mt-12">
                 <img src={element.image} alt="Images" className='w-15 h-15 mx-auto p-2'/> 
