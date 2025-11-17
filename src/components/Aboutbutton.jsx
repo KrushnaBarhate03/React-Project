@@ -29,7 +29,7 @@ function Aboutbutton({Description,image }) {
     ]
     return (
         <div >
-<div className='flex sm:flex-row flex-col flex-wrap jutisfy-center'>
+<div className='flex sm:flex-row flex-col flex-wrap jutisfy-center items-center'>
 
             {Design && (
          
