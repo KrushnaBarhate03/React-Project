@@ -52,7 +52,7 @@ function Home() {
 
       
        <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500 mt-10"> About</h3> 
-     <div className="flex justify-center  flex-col sm:flex-row items-center h-[750px] sm:h-[400px] bg-gray-200 relative rounded-lg mt-2 sm:mt-12 ">  
+     <div className="flex justify-center  flex-col sm:flex-row items-center h-[750px] sm:h-[400px] bg-blue-50 relative rounded-lg mt-2 sm:mt-12 ">  
       <div> 
          <h2 className="font-serif text-2xl   text-center sm:text-start font-bold text-blue-500 hidden sm:block sm:mx-10" >About Us</h2>
         
