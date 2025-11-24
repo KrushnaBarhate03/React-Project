@@ -2,6 +2,7 @@ import React from 'react'
 import Durable from '../assets/Durable.png'
 import Aboutbutton from '../components/Aboutbutton.jsx'
 import Battery from '../assets/battery.png'
+import imagess from '../assets/award.png'
 
 function About() {
   return (
@@ -18,7 +19,12 @@ function About() {
    <div>
     <Aboutbutton/>
    </div>
+   <div className="flex justify-center m-10">
+    <a  href="/Avishkar_Drone_Info.pdf" className="bg-blue-500 p-6 text-xl font-serif font-bold text-white rounded-md " download="Avishkar Drone Information">About Ourself</a>
+   </div>
+   
     </div>
+    
     
   )
 }
