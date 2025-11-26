@@ -31,15 +31,15 @@ function About() {
         <a href="/Avishkar_Drone_Info.pdf" className="bg-blue-500 p-6 text-xl font-serif font-bold text-white rounded-md " download="Avishkar Drone Information">About Ourself</a>
       </div>
 
-      <div className=" flex   m-15 bg-blue-100 rounded-md">
+      <div className=" flex bg-blue-100 rounded-md">
 
-        <div className="flex sm:flex-col flex-row w-1/4">
-          <button className="bg-orange-500  rounded-sm text-white flex justify-center items-center  m-10 font-serif font-bold text-6xl w-24 h-24 text-center " onClick={()=>setShow(1)}>1</button>
-          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center w-24 h-24 text-6xl" onClick={()=>setShow(2)}>2</button>
-          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center w-24 h-24 text-6xl "onClick={()=>setShow(3)}>3</button>
+        <div className="flex sm:flex-col flex-row ">
+          <button className="bg-orange-500  rounded-sm text-white flex justify-center items-center  m-10 font-serif font-bold sm:text-6xl text-2xl sm:w-24 sm:h-24 h-14 w-14 text-center " onClick={()=>setShow(1)}>1</button>
+          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center h-14 w-14 sm:w-24 sm:h-24 text-2xl sm:text-6xl" onClick={()=>setShow(2)}>2</button>
+          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center sm:w-24 sm:h-24 w-14 h-14 text-2xl sm:text-6xl "onClick={()=>setShow(3)}>3</button>
         </div>
         {Show===1 && (
-          <div>
+          <div className='mt-25'>
             
             <h3 className="m-12 font-serif text-center font-bold text-2xl bg-orange-500 p-2 rounded-sm text-white">We Make a Different Type Of Drone Using New And Innovative Technology </h3>
             <h3 className=" font-bold font-serif mx-auto text-xl text-white text-center bg-blue-500 w-80 m-5 p-2 rounded-md">Defence Drone</h3>
