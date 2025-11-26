@@ -70,7 +70,7 @@ function About() {
       {Show===3 &&(
         <div className='flex flex-col'>
           <h3 className="m-12 font-serif text-center font-bold text-2xl bg-white shadow-lg shadow-blue-500/50 p-2 rounded-sm text-black">“We provide training and organize awareness campaigns to educate farmers on using drones in agriculture, especially for spraying pesticides on crops.”</h3>
-           <img src={Chart} alt="Drone image " className="w-64 sm:w-96 rounded-sm mx-auto "/> 
+           <img src={Chart} alt="Drone image " className="w-80 sm:w-96 rounded-sm mx-auto m-2 "/> 
         </div>
       )}
       </div>
