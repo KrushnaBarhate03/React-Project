@@ -34,9 +34,9 @@ function About() {
       <div className=" sm:flex  bg-blue-100 rounded-md">
 
         <div className="flex sm:flex-col flex-row ">
-          <button className="bg-orange-500  rounded-sm text-white flex justify-center items-center  m-10 font-serif font-bold sm:text-6xl text-2xl sm:w-24 sm:h-24 h-14 w-14 text-center " onClick={()=>setShow(1)}>1</button>
-          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center h-14 w-14 sm:w-24 sm:h-24 text-2xl sm:text-6xl" onClick={()=>setShow(2)}>2</button>
-          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center sm:w-24 sm:h-24 w-14 h-14 text-2xl sm:text-6xl "onClick={()=>setShow(3)}>3</button>
+          <button className="bg-orange-500  rounded-sm text-white flex justify-center items-center  m-10 font-serif font-bold sm:text-6xl text-2xl sm:w-24 sm:h-24 h-20 w-20 text-center " onClick={()=>setShow(1)}>1</button>
+          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center h-20 w-20 sm:w-24 sm:h-24 text-2xl sm:text-6xl" onClick={()=>setShow(2)}>2</button>
+          <button className="bg-orange-500 rounded-sm text-white m-10 flex justify-center items-center font-serif font-bold text-center sm:w-24 sm:h-24 w-20 h-20 text-2xl sm:text-6xl "onClick={()=>setShow(3)}>3</button>
         </div>
         {Show===1 && (
           <div>
