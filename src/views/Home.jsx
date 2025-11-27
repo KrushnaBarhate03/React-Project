@@ -21,6 +21,8 @@ import User from '../assets/user.png'
 import Choosecard from '../components/Choosecard.jsx'
 import Logo from '../assets/logo.png'
 import Footer from '../components/Footer.jsx'
+import Section from '../components/Section.jsx'
+
 function Home() {
   return(
     <>
@@ -33,14 +35,14 @@ function Home() {
     <img src={Dchart} alt="drone chart" className=" mt-4 w-[300px]   rounded-lg "/>
     </div>
     <div className="">
-      <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Drones</h3> 
+       <Section heading="Our Drones"/>
        </div>
        <div className="flex flex-row sm:mt-10  flex-wrap">
         <Cards image={ Agriculture } name="Agriculture Drone"/>
          <Cards image={ Agriculture } name="Defense Drone"/>
         <Cards image={ Agriculture } name="Survelliance Drone"/> 
        </div>
-       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500"> Our Achievements</h3> 
+        <Section heading="Our Achivements"/>
 <div className="text-center flex sm:flex-row flex-col sm:justify-center sm:items-center  flex-wrap">
   
    <Counter images={Experience } names="Experience" end={6} duration={2} suffix="+"/>
@@ -51,7 +53,7 @@ function Home() {
 </div>
 
       
-       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto sm:mt-10 bg-amber-500 mt-10"> About</h3> 
+       <Section heading="About"/>
      <div className="flex justify-center  flex-col sm:flex-row items-center h-[750px] sm:h-[400px] bg-blue-50 relative rounded-lg mt-2 sm:mt-12 ">  
       <div> 
          <h2 className="font-serif text-2xl   text-center sm:text-start font-bold text-blue-500 hidden sm:block sm:mx-10" >About Us</h2>
@@ -63,14 +65,14 @@ function Home() {
         </div>
        <img src={About} alt="About image" className='w-96 h-80 sm:m-10  sm:shadow-lg sm:shadow-blue-500/50  shadow-lg shadow-blue-500/50 rounded-lg  p-4 sm:p-0'/>
        </div> 
-       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Our Services </h3>
+        <Section heading="Our Services"/>
        
        
 <div className="flex flex-wrap flex-row mt-10 justify-center">
        <Ourservices />
        
        </div>
-       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500"> Why Choose Us </h3>
+        <Section heading="Why Choose Us"/>
 
 <div className="flex flex-row sm:mt-10  flex-wrap">
         <Industry image={ Innovation } name="Innovation & Intergartion" information="Developing cutting-edge UAV solutions that enhance efficiency, usability, and seamless integration across industries." />
@@ -81,7 +83,7 @@ function Home() {
 
         <Industry image={ Research } name="Research & Development" information="Continuously innovating UAV solutions with cutting-edge technology to enhance efficiency and usability."/> 
        </div>
-       <h3 className="text-center font-serif font-bold text-xl w-auto sm:w-120 mx-auto mt-10 bg-amber-500 "> What Our Clients Say </h3>
+        <Section heading="What Our Client Say"/>
        <div className="flex mt-12 flex-wrap justify-center ">
         <Choosecard/>
        </div>
