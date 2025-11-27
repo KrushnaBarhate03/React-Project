@@ -6,6 +6,7 @@ import imagess from '../assets/award.png'
 import { useState } from 'react'
 import Chart from "../assets/chart3.jpg"
 import Section from '../components/Section.jsx'
+import AboutCard from '../components/Aboutcard.jsx'
 
 
 function About() {
@@ -74,10 +75,11 @@ function About() {
         </div>
       )}
       </div>
-<div>
-      <Section heading="Meet Our Founders"/>
-    </div>
 
+      <Section heading="Meet Our Founders"/>
+    <div>
+      <AboutCard/>
+    </div>
     </div>
 
 
