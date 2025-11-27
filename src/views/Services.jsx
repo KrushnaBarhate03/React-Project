@@ -7,7 +7,7 @@ function Services() {
         <h2 className="text-center font-serif font-bold text-2xl">Our Services</h2>
         <h3 className="text-center font-serif text-xl">“We provide a complete range of advanced drone technology solutions designed to enhance productivity, improve safety, and accelerate growth. From precision agriculture to aerial surveying, our services help businesses adopt smart and efficient drone-based operations.”</h3>
       </div>
-      <div className="flex flex-row flex-wrap mt-15">
+      <div className="flex flex-row flex-wrap mt-15 justify-center items-center">
     <Ourservices/>
       </div>
       </div>
