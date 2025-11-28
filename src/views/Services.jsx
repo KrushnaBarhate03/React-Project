@@ -18,7 +18,7 @@ function Services() {
       </div>
       <Section heading="Best Process to Build Drone " />
 
-      <div className=" bg-blue-100 mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col flex-row border border-blue-500" >
+      <div className=" bg-blue-100 mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col flex-row border border-blue-500 m-1" >
         <div>
           <button type="button" className="sm:m-4 m-2" onClick={() => console.log('Imaged clicked')}>
             <img src={Explore} alt='Explore image' className=" w-8 h-8 sm:w-12 sm:h-12 mx-auto" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500">Explore</span>
