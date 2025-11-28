@@ -20,16 +20,16 @@ function Services() {
       </div>
       <Section heading="Best Process to Build Drone " />
 
-      <div className=" bg-blue-100 sm:bg-white mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col  flex-row border border-blue-500 m-1" >
-        <div className="sm:bg-blue-100 sm:w-80  sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500">
+      <div className=" bg-blue-100 sm:bg-white mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col  flex-row  m-1" >
+        <div className="sm:bg-blue-100 sm:w-80  sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 ">
           <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)} >
             <img src={Explore} alt='Explore image' className=" w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-30" /><span className="font-serif font-bold  text-sm sm:text-base text-amber-500">Explore</span>
           </button>
         </div>
-        <div>
+        <div className=''> 
         {Action===1 &&(
-            <div>
-            <h3 className="font-serif text-center">We study and understand the customer’s needs, problems, and goals.</h3>
+            <div className="mt-20 sm:mt-0 flex justify-end">
+            <h3 className="font-serif text-center text-xl">We study and understand the customer’s needs, problems, and goals.</h3>
             </div>
           )}
           </div>
