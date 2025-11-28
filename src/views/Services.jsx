@@ -1,4 +1,5 @@
 import React from 'react'
+import {useState} from 'react'
 import Ourservices from '../components/Ourservices.jsx'
 import Section from '../components/Section.jsx'
 import Explore from '../assets/Explore.png'
@@ -7,6 +8,7 @@ import Execute from '../assets/Execute.png'
 import Evaluate from '../assets/Evaluate.png'
 import Elevate from '../assets/Elevate.png'
 function Services() {
+  const [Action,SetAction]=useState(1);
   return (
     <div>
       <div className='bg-blue-50 border border-blue-500 rounded-lg mt-5 p-4 w-5/6 mx-auto'>
@@ -18,13 +20,20 @@ function Services() {
       </div>
       <Section heading="Best Process to Build Drone " />
 
-      <div className=" bg-blue-100 mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col flex-row border border-blue-500 m-1" >
-        <div>
-          <button type="button" className="sm:m-4 m-2" onClick={() => console.log('Imaged clicked')}>
-            <img src={Explore} alt='Explore image' className=" w-8 h-8 sm:w-12 sm:h-12 mx-auto" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500">Explore</span>
+      <div className=" bg-blue-100 sm:bg-white mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col  flex-row border border-blue-500 m-1" >
+        <div className="sm:bg-blue-100 sm:w-80  sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500">
+          <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)} >
+            <img src={Explore} alt='Explore image' className=" w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-30" /><span className="font-serif font-bold  text-sm sm:text-base text-amber-500">Explore</span>
           </button>
         </div>
         <div>
+        {Action===1 &&(
+            <div>
+            <h3 className="font-serif text-center">We study and understand the customer’s needs, problems, and goals.</h3>
+            </div>
+          )}
+          </div>
+        <div >
           <button type="button" className="sm:m-4 m-2">
             <img src={Engineer} alt='Engineer Image' className="w-8 h-8 sm:w-12 sm:h-12 mx-auto" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500"> Engineer</span>
            </button>
