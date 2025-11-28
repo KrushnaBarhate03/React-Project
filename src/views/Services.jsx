@@ -21,27 +21,27 @@ function Services() {
       <div className=" bg-blue-100 mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col flex-row border border-blue-500" >
         <div>
           <button type="button" className="sm:m-4 m-1" onClick={() => console.log('Imaged clicked')}>
-            <img src={Explore} alt='Explore image' className=" w-8 h-8 sm:w-12 sm:h-12 " /><span className="font-serif font-bold text-amber-500">Explore</span>
+            <img src={Explore} alt='Explore image' className=" w-5 h-5 sm:w-12 sm:h-12 " /><span className="font-serif font-bold text-sm sm:text-base text-amber-500">Explore</span>
           </button>
         </div>
         <div>
           <button type="button" className="sm:m-4 m-1">
-            <img src={Engineer} alt='Engineer Image' className="w-8 h-8 sm:w-12 sm:h-12" /><span className="font-serif font-bold text-amber-500"> Engineer</span>
+            <img src={Engineer} alt='Engineer Image' className="w-5 h-5 sm:w-12 sm:h-12" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500"> Engineer</span>
            </button>
         </div>
         <div>
           <button type="button" className="sm:m-4 m-1">
-            <img src={Execute} alt="Execute image" className='w-8 h-8 sm:w-12 sm:h-12' /><span className="font-serif font-bold text-amber-500">Execute</span>
+            <img src={Execute} alt="Execute image" className='w-5 h-5 sm:w-12 sm:h-12' /><span className="font-serif font-bold text-sm sm:text-base text-amber-500">Execute</span>
           </button>
         </div>
         <div>
           <button type="button" className="sm:m-4 m-1">
-            <img src={Evaluate} alt="Evaluate image" className="w-8 h-8 sm:w-12 sm:h-12" /><span className="font-serif font-bold text-amber-500">Evaluate</span>
+            <img src={Evaluate} alt="Evaluate image" className="w-5 h-5 sm:w-12 sm:h-12" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500">Evaluate</span>
           </button>
         </div>
         <div>
           <button type="button" className="sm:m-4 m-1">
-            <img src={Elevate} alt='Elevate image' className="w-8 h-8 sm:w-12 sm:h-12" /><span className="font-serif font-bold text-amber-500">Elevate</span>
+            <img src={Elevate} alt='Elevate image' className="w-5 h-5 sm:w-12 sm:h-12" /><span className="font-serif font-bold text-sm  sm:text-base text-amber-500">Elevate</span>
           </button>
         </div>
       </div>
