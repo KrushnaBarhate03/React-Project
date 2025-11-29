@@ -84,7 +84,7 @@ function Services() {
 
      {action===2&&(
     <div>
-   <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">Our solutions empower users to work smarter and achieve more.</h2>
+   <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">Our Solutions Empower Users To Work Smarter And Achieve More.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
     <li className="text-xl m-4 font-serif ">We design high-performance, safe, and reliable drone solutions tailored to your goals.</li>
    <li className='text-xl m-4 font-serif '> Every system is engineered for efficiency, durability, and real-world performance.</li>
@@ -94,7 +94,7 @@ function Services() {
      )}
      {action===3&&(
       <div>
-       <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We provide smooth, timely, and effective drone services.</h2>
+       <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We Provide Smooth, Timely, And Effective Drone Services.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
     <li className="text-xl m-4 font-serif ">We implement drone operations with accuracy and professionalism.</li>
    <li className='text-xl m-4 font-serif '> From spraying to surveying, our execution ensures fast and quality results.</li>
@@ -105,7 +105,7 @@ function Services() {
 
     {action===4&&(
       <div>
-        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We refine our process to give you better outcomes each time.</h2>
+        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We Refine Our Process To Give You Better Outcomes Each Time.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
     <li className="text-xl m-4 font-serif ">We analyze performance, results, and impact to ensure the highest quality service.</li>
    <li className='text-xl m-4 font-serif '> Every project is reviewed to identify improvements and maintain excellence.</li>
@@ -116,7 +116,7 @@ function Services() {
 
       {action===5&&(
       <div>
-        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We push boundaries with advanced drone technology and new ideas.</h2>
+        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We Push Boundaries With Advanced Drone Technology And New Ideas.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
     <li className="text-xl m-4 font-serif ">We upgrade our technology and solutions to help you achieve long-term success.</li>
    <li className='text-xl m-4 font-serif '> Our goal is to elevate productivity and transform traditional farming practices.</li>
