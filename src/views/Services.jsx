@@ -8,6 +8,7 @@ import Execute from '../assets/Execute.png'
 import Evaluate from '../assets/Evaluate.png'
 import Elevate from '../assets/Elevate.png'
 import Dronepilot from '../assets/Dronepilot.jpg'
+import Droneengineer from '../assets/Droneengineer.jpg'
 function Services() {
   const [Action,SetAction]=useState(1);
   return (
@@ -80,8 +81,12 @@ function Services() {
 
      {Action===2&&(
     <div>
-    <h2 className="font-bold text-xl">khsoicf;uoh</h2>
-    <p>dWLQHDWQDJPow</p>
+   <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">Our solutions empower users to work smarter and achieve more.</h2>
+    <ul className=" list-disc font-serif m-2 sm:mt-6">
+    <li className="text-xl m-4 font-serif ">We design high-performance, safe, and reliable drone solutions tailored to your goals.</li>
+   <li className='text-xl m-4 font-serif '> Every system is engineered for efficiency, durability, and real-world performance.</li>
+    </ul>
+     <img src={Droneengineer} alt="Drone Development image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
     </div>
      )}
   </div>
