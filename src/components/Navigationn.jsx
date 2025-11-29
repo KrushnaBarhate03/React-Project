@@ -14,14 +14,14 @@ function Navigationn() {
 
   return (
     <>
-    <div className='p-2 sm:p-0  bg-blue-600 'onClick={()=>setOpen(!open)}>
+    <div className='p-2 sm:p-0   'onClick={()=>setOpen(!open)}>
          {open?( <img src={Close} alt="Close image" className="w-8 h-8 sm:hidden" />):( <img src={Icon} alt="Open image icon" className="w-8 h-8 sm:hidden" />)}
 </div>
 
 
-    <nav className="  bg-blue-500 w-32 sm:w-full rounded-lg relative">
+    <nav className="  w-32 sm:w-full rounded-lg relative">
 
-  <div className={`${open ? "flex" : "hidden"} sm:flex flex-col sm:flex-row justify-center font-serif font-bold  text-xl  absolute sm:static items-start text-white  bg-blue-800`}>
+  <div className={`${open ? "flex" : "hidden"} sm:flex flex-col sm:flex-row font-serif font-bold  text-xl  absolute sm:static items-start text-white  bg-blue-900 sm:bg-white sm:text-black rounded-sm h-screen w-[200px]`}>
     <Link to="/" className="p-2" onClick={handleopens}>Home</Link>
     <Link to="/about" className="p-2" onClick={handleopens}>About</Link>
 
