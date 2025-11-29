@@ -24,8 +24,8 @@ function Services() {
 <div className="flex flex-col sm:flex-row">
 
   {/* Existing Div */}
-  <div className="sm:w-1/3 sm:mx-10 mx-2 mt-20 sm:flex-col flex-row ">
-    <div className='flex'>
+  <div className="sm:w-1/3 sm:mx-10 mx-2 mt-20 flex sm:flex-col flex-row ">
+    
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6  ">
       <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)}>
         <img src={Explore} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
@@ -62,14 +62,17 @@ function Services() {
     </div>
 
   </div>
-</div>
+
   {/* ➡️ NEW DIV ON RIGHT SIDE */}
    
   <div className="w-5/6 bg-red-200 mt-5 sm:mt-26 p-5 mx-auto rounded-md">
  {Action===1&&(
     <div>
-    <h2 className="font-bold text-xl">New Div Right Side</h2>
-    <p>This div is placed to the RIGHT side.</p>
+    <h2 className="font-bold text-xl font-serif">We guide and train users to understand the power of drone technology.</h2>
+    <ol type="1" start="1" className="list-decimal list-inside font-serif m-2">
+    <li>We deeply understand the needs of farmers, businesses, and industries.</li>
+   <li> Our team studies land, crops, and challenges to design the right drone solution.</li>
+    </ol>
     </div>
      )}
 
