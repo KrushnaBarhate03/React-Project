@@ -74,7 +74,7 @@ function Services() {
     <li className="text-xl m-4 font-serif  ">We deeply understand the needs of farmers, businesses, and industries.</li>
    <li className='text-xl m-4 font-serif '> Our team studies land, crops, and challenges to design the right drone solution.</li>
     </ul>
-    <img src={Dronepilot} alt="Drone training image" className=" sm:max-w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
+    <img src={Dronepilot} alt="Drone training image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
     </div>
      )}
 
