@@ -25,7 +25,7 @@ function Services() {
 <div className="flex flex-col sm:flex-row bg-red-200 mt-10 m-2 rounded-sm">
 
   {/* Existing Div */}
-  <div className="sm:w-1/3 sm:mx-10 mx-2 mt-5 flex sm:flex-col flex-row ">
+  <div className="sm:w-1/3 sm:mx-10 mx-1 mt-5 flex sm:flex-col flex-row ">
     
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6  ">
       <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)}>
@@ -66,7 +66,7 @@ function Services() {
 
   {/* ➡️ NEW DIV ON RIGHT SIDE */}
    
-  <div className="sm:w-5/6  mt-2 sm:mt-26 p-5    mx-auto rounded-md">
+  <div className="sm:w-5/6  mt-2 sm:mt-26 p-5  mx-auto rounded-md">
  {Action===1&&(
     <div>
     <h2 className="font-bold sm:text-3xl text-xl  font-serif text-indigo-900">We Guide And Train Users To Understand The Power Of Drone Technology.</h2>
