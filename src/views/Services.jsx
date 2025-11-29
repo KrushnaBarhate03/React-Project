@@ -66,7 +66,7 @@ function Services() {
 
   {/* ➡️ NEW DIV ON RIGHT SIDE */}
    
-  <div className="sm:w-5/6  mt-2 sm:mt-11 p-5 bg-red-200 mx-auto rounded-md">
+  <div className="sm:w-5/6  sm:h-auto mt-2 sm:mt-11 p-5 bg-red-200 mx-auto rounded-md">
  {Action===1&&(
     <div>
     <h2 className="font-bold sm:text-3xl text-xl  font-serif text-indigo-900">We Guide And Train Users To Understand The Power Of Drone Technology.</h2>
