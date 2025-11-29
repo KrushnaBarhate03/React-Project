@@ -25,7 +25,7 @@ function Services() {
 <div className="flex flex-col sm:flex-row bg-red-200 mt-10 m-2 rounded-sm">
 
   {/* Existing Div */}
-  <div className="sm:w-1/3 sm:mx-10 mx-1 mt-5 flex sm:flex-col flex-row ">
+  <div className="sm:w-1/3 sm:mx-10  mt-5 flex sm:flex-col flex-row ">
     
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6  ">
       <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)}>
