@@ -71,7 +71,7 @@ function Services() {
     <div>
     <h2 className="font-bold sm:text-3xl text-xl  font-serif text-indigo-900">We Guide And Train Users To Understand The Power Of Drone Technology.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
-    <li className="text-xl m-4 font-serif  ">We deeply understand the needs of farmers, businesses, and industries.</li>
+    <li className="text-xl m-4 font-serif ">We deeply understand the needs of farmers, businesses, and industries.</li>
    <li className='text-xl m-4 font-serif '> Our team studies land, crops, and challenges to design the right drone solution.</li>
     </ul>
     <img src={Dronepilot} alt="Drone training image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
