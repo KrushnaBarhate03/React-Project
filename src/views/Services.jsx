@@ -7,6 +7,7 @@ import Engineer from '../assets/Engineer.png'
 import Execute from '../assets/Execute.png'
 import Evaluate from '../assets/Evaluate.png'
 import Elevate from '../assets/Elevate.png'
+import Dronepilot from '../assets/Dronepilot.jpg'
 function Services() {
   const [Action,SetAction]=useState(1);
   return (
@@ -68,11 +69,12 @@ function Services() {
   <div className="w-5/6 bg-red-200 mt-5 sm:mt-26 p-5 mx-auto rounded-md">
  {Action===1&&(
     <div>
-    <h2 className="font-bold text-xl font-serif">We guide and train users to understand the power of drone technology.</h2>
-    <ol type="1" start="1" className="list-decimal list-inside font-serif m-2">
-    <li>We deeply understand the needs of farmers, businesses, and industries.</li>
-   <li> Our team studies land, crops, and challenges to design the right drone solution.</li>
-    </ol>
+    <h2 className="font-bold text-3xl  font-serif text-indigo-900">We Guide And Train Users To Understand The Power Of Drone Technology.</h2>
+    <ul className=" list-disc font-serif m-2 sm:mt-6">
+    <li className="text-xl m-4 font-serif  ">We deeply understand the needs of farmers, businesses, and industries.</li>
+   <li className='text-xl m-4 font-serif '> Our team studies land, crops, and challenges to design the right drone solution.</li>
+    </ul>
+    <img src={Dronepilot} alt="Drone training image" className="sm:w-[800px] sm:h-[430px] rounded-sm"/>
     </div>
      )}
 
