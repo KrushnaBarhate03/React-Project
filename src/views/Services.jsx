@@ -66,7 +66,7 @@ function Services() {
 
   {/* ➡️ NEW DIV ON RIGHT SIDE */}
    
-  <div className="sm:w-5/6  sm:h-auto mt-2 sm:mt-11 p-5 bg-red-200 mx-auto rounded-md">
+  <div className="sm:w-5/6  mt-2 sm:mt-11 p-5 bg-red-200 mx-auto rounded-md">
  {Action===1&&(
     <div>
     <h2 className="font-bold sm:text-3xl text-xl  font-serif text-indigo-900">We Guide And Train Users To Understand The Power Of Drone Technology.</h2>
@@ -74,7 +74,7 @@ function Services() {
     <li className="text-xl m-4 font-serif  ">We deeply understand the needs of farmers, businesses, and industries.</li>
    <li className='text-xl m-4 font-serif '> Our team studies land, crops, and challenges to design the right drone solution.</li>
     </ul>
-    <img src={Dronepilot} alt="Drone training image" className=" w-auto h-auto sm:w-[800px] sm:h-[430px] rounded-sm"/>
+    <img src={Dronepilot} alt="Drone training image" className=" w-auto h-auto sm:w-[800px] sm:h-[400px] rounded-sm"/>
     </div>
      )}
 
