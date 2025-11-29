@@ -21,12 +21,12 @@ function Services() {
       <Section heading="Best Process to Build Drone " />
     
     
-<div className="flex">
+<div className="flex flex-col sm:flex-row">
 
   {/* Existing Div */}
-  <div className="w-1/3 mx-10 mt-20 ">
+  <div className="sm:w-1/3 mx-10 mt-20 sm:flex-col flex-row ">
     
-    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
+    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6  ">
       <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)}>
         <img src={Explore} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold  text-sm sm:text-xl text-blue-900 ">Explore</span>
@@ -65,7 +65,7 @@ function Services() {
 
   {/* ➡️ NEW DIV ON RIGHT SIDE */}
    
-  <div className="w-5/6 bg-red-200 mt-26 p-5 rounded-md">
+  <div className="w-5/6 bg-red-200 mt-10 sm:mt-26 p-5 mx-auto rounded-md">
  {Action===1&&(
     <div>
     <h2 className="font-bold text-xl">New Div Right Side</h2>
