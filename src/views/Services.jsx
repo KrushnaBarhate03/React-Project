@@ -13,7 +13,7 @@ import DroneAccuracy from '../assets/Droneaccuracy.jpg'
 import DroneProcess from '../assets/Droneprocess.jpg'
 import AdvancedDrone from '../assets/Advanceddrone.jpg'
 function Services() {
-  const [Action,SetAction]=useState(1);
+  const [action,setAction]=useState(1);
   return (
     <div>
       <div className='bg-blue-50 border border-blue-500 rounded-lg mt-5 p-4 w-5/6 mx-auto'>
@@ -32,35 +32,35 @@ function Services() {
   <div className="sm:w-1/3 sm:mx-10  mt-5 flex sm:flex-col flex-row ">
     
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6  ">
-      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)}>
+      <button type="button" className="sm:m-4 m-2" onClick={()=>setAction(1)}>
         <img src={Explore} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold  text-sm sm:text-xl text-blue-900 ">Explore</span>
       </button>
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(2)}>
+      <button type="button" className="sm:m-4 m-2" onClick={()=>setAction(2)}>
         <img src={Engineer} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif   text-sm sm:text-xl text-blue-900 font-bold ">Engineer</span>
       </button>
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(3)}>
+      <button type="button" className="sm:m-4 m-2" onClick={()=>setAction(3)}>
         <img src={Execute} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Execute</span>
       </button>
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(4)}>
+      <button type="button" className="sm:m-4 m-2" onClick={()=>setAction(4)}>
         <img src={Evaluate} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Evaluate</span>
       </button>
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(5)}>
+      <button type="button" className="sm:m-4 m-2" onClick={()=>setAction(5)}>
         <img src={Elevate} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Elevate</span>
       </button>
@@ -71,7 +71,7 @@ function Services() {
   {/* ➡️ NEW DIV ON RIGHT SIDE */}
    
   <div className="sm:w-5/6  mt-2 sm:mt-11 p-5 bg-red-200 mx-auto rounded-md">
- {Action===1&&(
+ {action===1&&(
     <div>
     <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We Guide And Train Users To Understand The Power Of Drone Technology.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
@@ -82,7 +82,7 @@ function Services() {
     </div>
      )}
 
-     {Action===2&&(
+     {action===2&&(
     <div>
    <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">Our solutions empower users to work smarter and achieve more.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
@@ -92,7 +92,7 @@ function Services() {
      <img src={Droneengineer} alt="Drone Development image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
     </div>
      )}
-     {Action===3&&(
+     {action===3&&(
       <div>
        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We provide smooth, timely, and effective drone services.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
@@ -103,7 +103,7 @@ function Services() {
       </div>
      )}
 
-    {Action===4&&(
+    {action===4&&(
       <div>
         <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We refine our process to give you better outcomes each time.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
@@ -114,7 +114,7 @@ function Services() {
       </div>
      )}
 
-      {Action===5&&(
+      {action===5&&(
       <div>
         <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We push boundaries with advanced drone technology and new ideas.</h2>
     <ul className=" list-disc font-serif m-2 sm:mt-6">
