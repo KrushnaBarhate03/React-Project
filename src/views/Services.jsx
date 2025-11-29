@@ -19,43 +19,75 @@ function Services() {
         <Ourservices />
       </div>
       <Section heading="Best Process to Build Drone " />
+    
+    
+<div className="flex">
 
-      <div className=" bg-blue-100 sm:bg-white mt-15  sm:p-4 p-2  flex rounded-sm  sm:flex-col  flex-row  m-1" >
-        <div className="sm:bg-blue-100 sm:w-80  sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 ">
-          <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)} >
-            <img src={Explore} alt='Explore image' className=" w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-30" /><span className="font-serif font-bold  text-sm sm:text-base text-amber-500">Explore</span>
-          </button>
-        </div>
-        <div className=''> 
-        {Action===1 &&(
-            <div className="mt-20 sm:mt-0 flex justify-end">
-            <h3 className="font-serif text-center text-xl">We study and understand the customer’s needs, problems, and goals.</h3>
-            </div>
-          )}
-          </div>
-        <div >
-          <button type="button" className="sm:m-4 m-2">
-            <img src={Engineer} alt='Engineer Image' className="w-8 h-8 sm:w-12 sm:h-12 mx-auto" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500"> Engineer</span>
-           </button>
-        </div>
-        <div>
-          <button type="button" className="sm:m-4 m-2">
-            <img src={Execute} alt="Execute image" className='w-8 h-8 sm:w-12 sm:h-12 mx-auto' /><span className="font-serif font-bold text-sm sm:text-base text-amber-500"> Execute</span>
-          </button>
-        </div>
-        <div>
-          <button type="button" className="sm:m-4 m-2">
-            <img src={Evaluate} alt="Evaluate image" className="w-8 h-8 sm:w-12 sm:h-12 mx-auto" /><span className="font-serif font-bold text-sm sm:text-base text-amber-500">Evaluate</span>
-          </button>
-        </div>
-        <div>
-          <button type="button" className="sm:m-4 m-2">
-            <img src={Elevate} alt='Elevate image' className="w-8 h-8 sm:w-12 sm:h-12 mx-auto" /><span className="font-serif font-bold text-sm  sm:text-base text-amber-500">Elevate</span>
-          </button>
-        </div>
-      </div>
-
+  {/* Existing Div */}
+  <div className="w-1/3 mx-10 mt-20 ">
+    
+    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
+      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(1)}>
+        <img src={Explore} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
+        <span className="font-serif font-bold  text-sm sm:text-xl text-blue-900 ">Explore</span>
+      </button>
     </div>
+
+    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
+      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(2)}>
+        <img src={Engineer} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
+        <span className="font-serif   text-sm sm:text-xl text-blue-900 font-bold ">Engineer</span>
+      </button>
+    </div>
+
+    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
+      <button type="button" className="sm:m-4 m-2">
+        <img src={Execute} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
+        <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Execute</span>
+      </button>
+    </div>
+
+    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
+      <button type="button" className="sm:m-4 m-2">
+        <img src={Evaluate} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
+        <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Evaluate</span>
+      </button>
+    </div>
+
+    <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
+      <button type="button" className="sm:m-4 m-2">
+        <img src={Elevate} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
+        <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Elevate</span>
+      </button>
+    </div>
+
+  </div>
+
+  {/* ➡️ NEW DIV ON RIGHT SIDE */}
+   
+  <div className="w-5/6 bg-red-200 mt-26 p-5 rounded-md">
+ {Action===1&&(
+    <div>
+    <h2 className="font-bold text-xl">New Div Right Side</h2>
+    <p>This div is placed to the RIGHT side.</p>
+    </div>
+     )}
+
+     {Action===2&&(
+    <div>
+    <h2 className="font-bold text-xl">khsoicf;uoh</h2>
+    <p>dWLQHDWQDJPow</p>
+    </div>
+     )}
+  </div>
+ 
+
+</div>
+</div>
+  
+  
+   
+   
   )
 }
 
