@@ -9,6 +9,9 @@ import Evaluate from '../assets/Evaluate.png'
 import Elevate from '../assets/Elevate.png'
 import Dronepilot from '../assets/Dronepilot.jpg'
 import Droneengineer from '../assets/Droneengineer.jpg'
+import DroneAccuracy from '../assets/Droneaccuracy.jpg'
+import DroneProcess from '../assets/Droneprocess.jpg'
+import AdvancedDrone from '../assets/Advanceddrone.jpg'
 function Services() {
   const [Action,SetAction]=useState(1);
   return (
@@ -43,21 +46,21 @@ function Services() {
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2">
+      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(3)}>
         <img src={Execute} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Execute</span>
       </button>
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2">
+      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(4)}>
         <img src={Evaluate} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Evaluate</span>
       </button>
     </div>
 
     <div className="sm:bg-blue-100 sm:w-80 sm:rounded-sm sm:border sm:hover:bg-blue-200 sm:border-blue-500 sm:mt-6 ">
-      <button type="button" className="sm:m-4 m-2">
+      <button type="button" className="sm:m-4 m-2" onClick={()=>SetAction(5)}>
         <img src={Elevate} className="w-8 h-8 sm:w-12 sm:h-12 mx-auto sm:mx-28" />
         <span className="font-serif font-bold text-sm sm:text-xl text-blue-900">Elevate</span>
       </button>
@@ -88,6 +91,38 @@ function Services() {
     </ul>
      <img src={Droneengineer} alt="Drone Development image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
     </div>
+     )}
+     {Action===3&&(
+      <div>
+       <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We provide smooth, timely, and effective drone services.</h2>
+    <ul className=" list-disc font-serif m-2 sm:mt-6">
+    <li className="text-xl m-4 font-serif ">We implement drone operations with accuracy and professionalism.</li>
+   <li className='text-xl m-4 font-serif '> From spraying to surveying, our execution ensures fast and quality results.</li>
+    </ul>
+     <img src={DroneAccuracy} alt="Drone Development image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
+      </div>
+     )}
+
+    {Action===4&&(
+      <div>
+        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We refine our process to give you better outcomes each time.</h2>
+    <ul className=" list-disc font-serif m-2 sm:mt-6">
+    <li className="text-xl m-4 font-serif ">We analyze performance, results, and impact to ensure the highest quality service.</li>
+   <li className='text-xl m-4 font-serif '> Every project is reviewed to identify improvements and maintain excellence.</li>
+    </ul>
+     <img src={DroneProcess} alt="Drone Development image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
+      </div>
+     )}
+
+      {Action===5&&(
+      <div>
+        <h2 className="font-bold sm:text-3xl text-xl text-center font-serif text-indigo-900">We push boundaries with advanced drone technology and new ideas.</h2>
+    <ul className=" list-disc font-serif m-2 sm:mt-6">
+    <li className="text-xl m-4 font-serif ">We upgrade our technology and solutions to help you achieve long-term success.</li>
+   <li className='text-xl m-4 font-serif '> Our goal is to elevate productivity and transform traditional farming practices.</li>
+    </ul>
+     <img src={AdvancedDrone} alt="Drone Development image" className=" sm:w-[700px] sm:h-[400px] rounded-sm mx-auto"/>
+      </div>
      )}
   </div>
  
